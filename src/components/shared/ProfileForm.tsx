@@ -21,8 +21,7 @@ import { updateStudentProfile } from "@/helpers/updateStudentProfile";
 // import { IEvent } from "@/lib/database/models/profile.model";
 
 type UserProps = {
-  dbUserId: string;
-  username: string;
+
   profile?: UserData;
 };
 
