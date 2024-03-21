@@ -41,7 +41,7 @@ const MentorListComp: React.FC<MentorListProps> = ({ mentorList }) => {
 
                             <td scope='col' className=' px-6 py-3'>{mentor.mentor_id}</td>
                             <td scope='col' className=' px-6 py-3 text-sky-500 hover:text-sky-600'>
-                                <Link href={`/Batch/${mentor.mentor_id}`}>View Batch</Link>
+                                <Link href={`/myBatch/${mentor.mentor_id}`}>View Batch</Link>
                             </td>
                         </tr>
                     ))}
